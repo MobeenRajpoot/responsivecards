@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+nav {
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav img {
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+}
+nav i {
+    font-size: 30px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+nav i:hover {
+    color: red;
+}
+
+h1 {
+    font-size: 86px;
+    text-align: center;
+}
+.heading {
+    padding: 0 50px;
+}
+.heading p {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+main {
+    background-color: #445BFF;
+    color: #fff;
+    padding: 0 30px;
+}
+
+.cards {
+    max-width: 1400px;
+    margin: auto;
+    margin-top: 50px;
+
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+
+.card {
+    max-width: 270px;
+    min-width: 230px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+    flex: 1;
+}
+
+.card:hover {
+    background-color: #000;
+    transform: scale(1.03);
+}
+
+.card:hover p{
+    color: #fff;
+}
+
+.card:hover h2{
+    color: #fff;
+}
+
+.card:hover .socials a {
+    color: white;
+}
+
+.card .img {
+    width: 70%;
+    height: 180px;
+    margin-bottom: 25px;
+    background-color: aqua;
+    margin-inline: auto;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.card h2 {
+    font-size: 24px;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+}
+.card h5 {
+    font-weight: 500;
+    font-size: 17px;
+    color: #445BFF;
+    text-align: center;
+    margin-top: 6px;
+}
+.card p {
+    color: #000;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 15px;
+    line-height: 30px;
+    font-style: italic;
+}
+
+.card-1 .img {
+    background-image: url(img/1-levi-ackerman.webp);
+}
+
+.card-2 .img {
+    background-image: url(img/2-kakashi-hatake.webp);
+}
+
+.card-3 .img {
+    background-image: url(img/3-itachi-uchiha.webp);
+}
+
+.card-4 .img {
+    background-image: url(img/6-karma-akabane.webp);
+}
+
+.socials {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.socials a {
+    font-size: x-large;
+    color: #445BFF;
+}
+
+.socials a i {
+    transition: 0.3s;
+}
+
+.socials a .fa-instagram:hover {
+    color: red;
+    transition: 0.5s;
+}
+
+.socials a i:hover {
+    color: #445BFF;
+    transform:translateY(-2px)
+}
+
+
+footer p {
+    color: #fff;
+    text-align: center;
+    padding-top: 50px;
+}
+footer p a {
+    color: #fff;
+    transition-duration: 0.3s;
+}
+
+footer p a:hover {
+    color: #40b6e5;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #333333;
+    height: 100px;
+    margin-top: 100px;
+    width: 100%;
+}
+
+
+/* Media Queries */
+
+@media (max-width: 668px) {
+    nav img {
+        width: 50px;
+        height: 50px;
+    }
+    nav i {
+        font-size: 25px;
+    }
+    h1 {
+        font-size: 50px;
+        padding-top: 50px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
